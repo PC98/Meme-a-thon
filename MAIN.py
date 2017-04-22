@@ -33,4 +33,4 @@ for (x, y, w, h) in faces:
 temp_image_path = imagePath.split('/')
 edited_image_path = temp_image_path[0] + "/EDITED" + temp_image_path[1]
 imageOpen.save(edited_image_path)
-print(edited_image_path)
+# print(edited_image_path)
